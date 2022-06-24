@@ -78,6 +78,13 @@ border: 5px double black;
 /*end of Navbar*/
 
 }
+main h3 {
+
+    font-family: Cedarville, cursive;
+    text-align: center;
+    
+
+}
 main {
     text-align: center;
     color: rgb(235, 204, 148);
@@ -86,16 +93,15 @@ main {
     height: 700px;
     
     
-    background-image: url(images/Pescadero-by-R.A.Myers.jpg);
+    /*background-image: url(images/Pescadero-by-R.A.Myers.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: initial;
+    opacity: initial;*/
 }
-main h3 {
-    font-family: Cedarville, cursive;
+main div img {
+    width: 100%;
 }
-
 aside {
     float: right;
     height: 916px;
