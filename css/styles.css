@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial;
+    background-color: rgba(78, 114, 143, 0.753);
     
     
 }
@@ -78,20 +79,30 @@ border: 5px double black;
 /*end of Navbar*/
 
 }
-main h3 {
+main div h3 {
 
     font-family: Cedarville, cursive;
     text-align: center;
+    margin-top: 50px;
+    color: rgb(156, 206, 206);
+    font-size: x-large;
+    text-shadow: 2px 2px black;
+
     
 
 }
+main video {
+    padding: 20px;
+    margin-bottom: 40px;
+    background-color: cadetblue;
+}
 main {
     text-align: center;
-    color: rgb(235, 204, 148);
+    color: rgb(109, 92, 61);
     text-shadow: 2px 2px rgb(4, 3, 14);
     width: 100%;
     height: 700px;
-    
+    background-color: rgb(54, 92, 94);
     
     /*background-image: url(images/Pescadero-by-R.A.Myers.jpg);
     background-position: center;
@@ -99,9 +110,10 @@ main {
     background-repeat: no-repeat;
     opacity: initial;*/
 }
-main div img {
+
+/*main div img {
     width: 100%;
-}
+}*/
 aside {
     float: right;
     height: 916px;
@@ -149,17 +161,19 @@ article div iframe {
 background-color: darkblue;
 
 width: 100%;
-height: 550px;
+height: 523px;
 }
 
 footer {
+    text-align: center;
 width: 100%;
-height: 60px;
+height: 100px;
 background-color: blueviolet;
 clear: both;
 }
 footer h5 {
-    margin: 2px;
+    margin-top: ;
+    margin: 25px;
     height: 59%;
 }
 footer p {
@@ -168,7 +182,7 @@ footer p {
     background-color: rgba(247, 195, 137, 0.911);
     padding: 5px;
     color: rgb(47, 40, 92);
-    text-align: center;
+    
     font-size: medium;
     text-shadow: 1px 1px;
 }
